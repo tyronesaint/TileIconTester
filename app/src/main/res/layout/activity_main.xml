@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="?android:attr/colorBackground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ColorOS 磁贴图标测试 v5"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="?attr/colorPrimary"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:lineSpacingMultiplier="1.3"
+            android:textColor="?android:attr/textColorPrimary"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnIconList"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="内置图标列表 (50+个)"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnTransparent"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="透图 (文字 + 占比)"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnEmoji"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Emoji (表情 + 占比)"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnSystem"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="系统图标 (内置15个)"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnImage"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="自定义图片 (相册上传)"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="强制刷新全部 5 个磁贴" />
+    </LinearLayout>
+</ScrollView>
